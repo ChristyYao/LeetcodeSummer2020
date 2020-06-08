@@ -1,5 +1,5 @@
 # O(n) time: iterate through entire linkedlist once
-# O(n) space: store values of entire linkedlist
+# O(1) space: only keeping variables
 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
