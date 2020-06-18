@@ -1,5 +1,8 @@
-# O(n) time: worst case, must iterate through all of s tree and t tree to find that t is a subtree of s
-# O(1) space: recursion does not take up space
+# O(n*m) time: worst case must iterate through all of s tree, and for each node in s tree, must iterate through all of t tree.
+#              Since n is the number of nodes in s tree and m is the number of nodes in t tree
+#              It will take O(n*m) time for the worst case
+# O(n*m) space: every time the function calls for a recursion, it is stored on the stack
+#               so with the same explanation is time complexity, it comes down to O(n*m) space complexity
 
 # Definition for a binary tree node.
 # class TreeNode:
