@@ -1,6 +1,7 @@
-# O(log(n)) time: worst case p and q are the most left or the most right two nodes, 
-#                 then the time is halving during each recursion 
-# O(1) space: 
+# O(log(n)) time: worst case p and q are in the lowest level of the tree,
+#                 then the time is halving during each recursion to get to p and q
+# O(log(n)) space: worst case p and q are in the lowest level of the tree,
+#                  then the space will be the height of the tree
 
 # Definition for a binary tree node.
 # class TreeNode:
